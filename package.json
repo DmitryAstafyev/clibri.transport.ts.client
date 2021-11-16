@@ -1,30 +1,30 @@
 {
-  "name": "fiber-websocket-client",
-  "version": "0.0.1",
-  "description": "WebSocket based client for fiber project",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "tsc -p ./tsconfig.json & ./node_modules/.bin/webpack",
-    "build-ts": "tsc -p ./tsconfig.json"
-  },
-  "author": "Dmitry Astafyev (D.Astafyev@outlook.com)",
-  "license": "Apache-2.0",
-  "readme": "README.md",
-  "devDependencies": {
-    "@types/node": "^14.0.26",
-    "source-map-loader": "^1.0.1",
-    "ts-loader": "^8.0.1",
-    "tslint": "^6.0.0",
-    "typescript": "^3.5.3",
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
-  },
-  "dependencies": {
-    "fiber": "file:../../../../lib/typescript"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DmitryAstafyev/fiber.transport.ts.client"
-  }
+	"name": "clibri-websocket-client",
+	"version": "0.0.1",
+	"description": "WebSocket based client for clibri project",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -p ./tsconfig.json & ./node_modules/.bin/webpack",
+		"build-ts": "tsc -p ./tsconfig.json"
+	},
+	"author": "Dmitry Astafyev (D.Astafyev@outlook.com)",
+	"license": "Apache-2.0",
+	"readme": "README.md",
+	"devDependencies": {
+		"@types/node": "^14.0.26",
+		"source-map-loader": "^1.0.1",
+		"ts-loader": "^8.0.1",
+		"tslint": "^6.0.0",
+		"typescript": "^3.5.3",
+		"webpack": "^4.41.6",
+		"webpack-cli": "^3.3.11"
+	},
+	"dependencies": {
+		"clibri": "file:../../../../lib/typescript"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DmitryAstafyev/clibri.transport.ts.client"
+	}
 }
