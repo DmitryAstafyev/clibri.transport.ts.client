@@ -5,7 +5,7 @@ module.exports = {
 		filename: "index.js",
 		path: __dirname + "/dist",
 		libraryTarget: "umd",
-		library: "clibri-websocket",
+		library: "clibri-websocket-client",
 		umdNamedDefine: true,
 	},
 	// Enable sourcemaps for debugging webpack's output.
